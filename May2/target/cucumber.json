@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "to check reports",
+        "description": "",
+        "id": "report-testing;to-check-reports",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 242567800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homage",
+            "match": {
+              "location": "Def2.user_is_on_homage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click jomage",
+            "match": {
+              "location": "Def2.user_click_jomage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "all pops up",
+            "match": {
+              "location": "Def2.all_pops_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Report Testing",
+    "description": "",
+    "id": "report-testing",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature/login.feature"
+  }
+]
