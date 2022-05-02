@@ -28,14 +28,5 @@ public class Def2 {
     public void everything_pops_up() throws Throwable {
      System.out.println("work not done");
     }
-    @Then("^work not done$")
-    public void work_not_done() throws Throwable {
-     System.out.println("work not done");
-    }
-    @Then("^Home not done$")
-    public void home_not_done() throws Throwable {
-System.out.println("home work");
-    }
-
 
 }

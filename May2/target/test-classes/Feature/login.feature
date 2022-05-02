@@ -6,5 +6,3 @@ Given user is on homage
 When user click jomage
 Then all pops up
 Then everything pops up
-Then work not done
-Then Home not done
