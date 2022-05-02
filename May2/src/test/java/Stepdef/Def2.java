@@ -24,5 +24,9 @@ public class Def2 {
     public void all_pops_up() throws Throwable {
     	 System.out.println("work will be  done");
     }
+    @Then("^everything pops up$")
+    public void everything_pops_up() throws Throwable {
+     System.out.println("work not done");
+    }
 
 }
